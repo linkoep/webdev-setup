@@ -7,8 +7,9 @@ This series is a proof of concept of different languages, frameworks, and tools.
 
 ### Tools used so far
 ##### As organized by directory
-1. [Basics](Basics)
+1. [Basics](01Basics)
    1. [HTML](Basics/01HTML)
    1. [CSS](Basics/02CSS)
    1. [JavaScript](Basics/03JavaScript)
+1. [Node](02Node)
 
