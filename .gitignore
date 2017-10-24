@@ -1,0 +1,2 @@
+#We ignore the node_packages as users can isntall them using npm when given our json file
+node_modules/

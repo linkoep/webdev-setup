@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Using Libraries with a Package Manager</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="node_modules/moment/min/moment.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<h1>Using Libraries with a Package Manager</h1>
+	
+	<p>Manually downloading libraries and keeping them up to date is complicated 
+	<br>Let's use <a href="https://www.npmjs.com/">Node Package Manager (npm)</a> to do it for us!
+	<br>Now all we have to do is initialize npm for our project, and tell it to install our library
+	<br>This also lets us share our project without having to directly share all the node modules.
+	<br>We simply share our package.json file and others can download the modules for themselves through npm</p>
+	
+	<button type="button" onclick="printTime()">Try it!</button>
+	
+	<p id = "demo"></p>
+</body>
+</html>
