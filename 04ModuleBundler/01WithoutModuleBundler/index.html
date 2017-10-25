@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Using Libraries without a Module Bundler</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<h1>Using Libraries without a Module Bundler</h1>
+	
+	<p>Although we can now automatically install and update libraries/packages, we are still manually including each one from the node_modules folder in our HTML Code.
+	<br>Essentially, we are creating a global variable, that all scripts after its declaration have access to.
+	<br>Even if we use node.js to load our libraries for us, once the website is running in the browser, we no longer have access to the file system
+	<br>We can see this by checking out the errors in the console</p>
+	
+	<button type="button" onclick="printTime()">Try it!</button>
+	
+	<p id = "demo"></p>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "01withoutmodulebundler",
+  "version": "1.0.0",
+  "description": "Attempting to use node.js to manage libraries without a module bundler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linkoep/webdev-setup.git"
+  },
+  "author": "Linus Koepfer",
+  "license": "MIT",
+  "homepage": "https://github.com/linkoep/webdev-setup#readme",
+  "dependencies": {
+    "moment": "^2.19.1"
+  }
+}
