@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Using a Module Bundler</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	
+</head>
+<body>
+	<h1>Using a Module Bundler</h1>
+	
+	<p>To create browser-compatible final output, we can use a package manager such as <a href="https://webpack.github.io/">Webpack</a>. 
+	<br>Webpack changes our development process to include a build step, which bundles all our libraries, packages, dependencies, etc. into static files that we can run in-browser as-is
+	<br>Our HTML now only includes a single script called "bundle.js" which containst everything we need from our local collection of JavaScript files.
+	</p>
+	
+	<button type="button" id ="clickme">Try it!</button>
+	<script type="text/javascript" src="output.js"></script>
+	<p id="demo">Test</p>
+</body>
+</html>
