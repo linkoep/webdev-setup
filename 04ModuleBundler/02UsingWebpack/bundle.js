@@ -16001,9 +16001,11 @@ return zhTw;
 
 var moment = __webpack_require__(0);
 
-function printTime() {
-	document.getElementById("demo").innerHTML = "You clicked the button at: " + moment().format('h:mm:ss a');
+
+document.getElementById('clickme').onclick = function printTime() {
+	document.getElementById('demo').innerHTML = "You clicked the button at: " + moment().format('h:mm:ss a');
 }
+
 
 /***/ }),
 /* 120 */
