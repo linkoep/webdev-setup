@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Building with automation</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+	<h1>Building with automation</h1>
+
+	<p>Fortunately, we can add command line scripts right inside of our package.json to make this process easier
+	<br>In this case we have added the "build" script, which manually runs the webpack command,
+	<br>as well as the "watch" script, which rebuilds every time our JavaScript is changed.
+	</p>
+
+	<p id="time"></p>
+
+	<h4>First Name:</h4><br>
+	<input type="text" id="firstName"><br>
+	<h4>Last Name:</h4><br>
+	<input type="text" id="lastName"><br>
+	<button id="click">Submit</button>
+
+	<p id = "response"></p>
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="bundle.js"></script>
+</body>
+</html>
