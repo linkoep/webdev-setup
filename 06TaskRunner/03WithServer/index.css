@@ -1,0 +1,26 @@
+body {
+	background-color: #6FD1C5;
+}
+
+h1 {
+	color: #FFFFFF;
+	font: sans-serif;
+	margin-left: 40px;
+}
+
+p {
+	color: #1900FF;
+	font: serif;
+	margin-left: 20px;
+}
+
+button {
+	margin-left: 50px;
+}
+
+h4{
+	color: #1900FF;
+	font: sans-serif;
+	margin-bottom: -10px;
+	margin-top: 10px;
+}

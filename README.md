@@ -22,3 +22,7 @@ This series is a proof of concept of different languages, frameworks, and tools.
 1. [Using a Transpiler (babel)](05Transpiler)
    1. [Trying to use new JavaScript features without a transpiler](05Transpiler/01WithoutTranspiler)
    1. [Using babel to transpile JavaScript](05Transpiler/02UsingBabel)
+1. [Using Task Runners (npm scripts)](06TaskRunner)
+   1. [A more complex website with a manual build step](06TaskRunner/01WithoutTaskRunner)
+   1. [A more complex website with automated build and watch](06TaskRunner/02WithBuildAndWatch)
+   1. [A more complex website with an atuomatically updating server](06TaskRunner/03WithServer)
