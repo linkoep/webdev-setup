@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Using a Transpiler</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	
+</head>
+<body>
+	<h1>Using Babel as a Transpiler</h1>
+	
+	<p>A transpiler like <a href="https://babeljs.io/">Babel</a> can help us ensure that our new JavaScript features remain compatible with older browsers.
+	<br>By installing babel via npm, and adding it's loader to our webpack build step with some extra rules, 
+	<br>we can translate (transpile) our new features into "regular" JavaScript.
+	<br>We can also see this by searching through our bundle.js file to find that our use of a template string has been converted to normals tring concatenation
+	</p>
+	
+	<button type="button" id ="clickme">Try it!</button>
+	<p id="demo">Test</p>
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="bundle.js"></script>
+</body>
+</html>

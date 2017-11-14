@@ -1,5 +1,5 @@
 {
-  "name": "03configuringwebpack",
+  "name": "01withouttranspiler",
   "version": "1.0.0",
   "description": "Using webpack as a package bundler",
   "main": "index.js",
@@ -14,7 +14,6 @@
   "license": "MIT",
   "homepage": "https://github.com/linkoep/webdev-setup#readme",
   "dependencies": {
-    "moment": "^2.19.1"
   },
   "devDependencies": {
     "webpack": "^3.8.1"

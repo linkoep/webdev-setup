@@ -1,2 +1,5 @@
-#We ignore the node_packages as users can isntall them using npm when given our json file
+#We ignore the node_packages as users can install them using npm when given our json file
 node_modules/
+
+#we ignore log files
+*.log
