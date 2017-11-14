@@ -1,5 +1,6 @@
 #We ignore the node_packages as users can install them using npm when given our json file
 node_modules/
 
-#we ignore log files
+#we ignore log and bundled files as users can generate them as they wish
 *.log
+**/bundle.js
