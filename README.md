@@ -15,7 +15,7 @@ This series is a proof of concept of different languages, frameworks, and tools.
 1. [Using a Package Manager (npm)](03PackageManager)
    1. [Using a library without a package manager](03PackageManager/01WithoutPackageManager)
    1. [Using npm to manage libraries](03PackageManager/02UsingNPM)
-1. [Using a Module Bundler (webpack)](04WModuleBundler)
+1. [Using a Module Bundler (webpack)](04ModuleBundler)
    1. [Trying to use libraries with node without a Module Bundler](04ModuleBundler/01WithoutModuleBundler)
    1. [Using webpack to bundle JavaScript](04ModuleBundler/02UsingWebpack)
    1. [Using a configuration file to simplify the build step](04ModuleBundler/03ConfiguringWebpack)
